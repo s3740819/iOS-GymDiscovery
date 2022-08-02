@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50847C3F289846610031C2D6 /* GymDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C3E289846610031C2D6 /* GymDiscoveryApp.swift */; };
+		50847C43289846630031C2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50847C42289846630031C2D6 /* Assets.xcassets */; };
+		50847C46289846630031C2D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50847C45289846630031C2D6 /* Preview Assets.xcassets */; };
+		50847C5F2898B85D0031C2D6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C4F2898B85C0031C2D6 /* ModelData.swift */; };
+		50847C602898B85D0031C2D6 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 50847C502898B85C0031C2D6 /* list.json */; };
+		50847C612898B85D0031C2D6 /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C512898B85C0031C2D6 /* Gym.swift */; };
+		50847C622898B85D0031C2D6 /* DetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C532898B85D0031C2D6 /* DetailCard.swift */; };
+		50847C632898B85D0031C2D6 /* GymRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C542898B85D0031C2D6 /* GymRow.swift */; };
+		50847C652898B85D0031C2D6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C562898B85D0031C2D6 /* MapView.swift */; };
+		50847C692898B85D0031C2D6 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C5B2898B85D0031C2D6 /* GreetingView.swift */; };
+		50847C6A2898B85D0031C2D6 /* GymList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C5C2898B85D0031C2D6 /* GymList.swift */; };
+		50847C6B2898B85D0031C2D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C5D2898B85D0031C2D6 /* ContentView.swift */; };
+		50847C6D2898BAAF0031C2D6 /* FloatingBurbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C6C2898BAAF0031C2D6 /* FloatingBurbles.swift */; };
+		50847C6F2898BAF00031C2D6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50847C6E2898BAF00031C2D6 /* Theme.swift */; };
+		5098B9102898DB7F00695B5C /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098B90F2898DB7F00695B5C /* ImageSlider.swift */; };
+		5098B9122898EF6400695B5C /* ScreenMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098B9112898EF6400695B5C /* ScreenMode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50847C3B289846610031C2D6 /* GymDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50847C3E289846610031C2D6 /* GymDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymDiscoveryApp.swift; sourceTree = "<group>"; };
+		50847C42289846630031C2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50847C45289846630031C2D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50847C4F2898B85C0031C2D6 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		50847C502898B85C0031C2D6 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		50847C512898B85C0031C2D6 /* Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gym.swift; sourceTree = "<group>"; };
+		50847C532898B85D0031C2D6 /* DetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCard.swift; sourceTree = "<group>"; };
+		50847C542898B85D0031C2D6 /* GymRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymRow.swift; sourceTree = "<group>"; };
+		50847C562898B85D0031C2D6 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		50847C5B2898B85D0031C2D6 /* GreetingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		50847C5C2898B85D0031C2D6 /* GymList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymList.swift; sourceTree = "<group>"; };
+		50847C5D2898B85D0031C2D6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50847C6C2898BAAF0031C2D6 /* FloatingBurbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBurbles.swift; sourceTree = "<group>"; };
+		50847C6E2898BAF00031C2D6 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5098B90F2898DB7F00695B5C /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		5098B9112898EF6400695B5C /* ScreenMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenMode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50847C38289846610031C2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50847C32289846610031C2D6 = {
+			isa = PBXGroup;
+			children = (
+				50847C3D289846610031C2D6 /* GymDiscovery */,
+				50847C3C289846610031C2D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50847C3C289846610031C2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50847C3B289846610031C2D6 /* GymDiscovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50847C3D289846610031C2D6 /* GymDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				50847C3E289846610031C2D6 /* GymDiscoveryApp.swift */,
+				50847C522898B85D0031C2D6 /* Views */,
+				50847C4D2898B85C0031C2D6 /* Model */,
+				50847C42289846630031C2D6 /* Assets.xcassets */,
+				50847C44289846630031C2D6 /* Preview Content */,
+			);
+			path = GymDiscovery;
+			sourceTree = "<group>";
+		};
+		50847C44289846630031C2D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50847C45289846630031C2D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50847C4D2898B85C0031C2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50847C502898B85C0031C2D6 /* list.json */,
+				50847C6E2898BAF00031C2D6 /* Theme.swift */,
+				50847C4F2898B85C0031C2D6 /* ModelData.swift */,
+				50847C512898B85C0031C2D6 /* Gym.swift */,
+				5098B9112898EF6400695B5C /* ScreenMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50847C522898B85D0031C2D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5098B9142898FAFF00695B5C /* List */,
+				5098B9132898FADD00695B5C /* Details */,
+				50847C582898B85D0031C2D6 /* Welcome */,
+				50847C5D2898B85D0031C2D6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50847C582898B85D0031C2D6 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				50847C5B2898B85D0031C2D6 /* GreetingView.swift */,
+				50847C6C2898BAAF0031C2D6 /* FloatingBurbles.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		5098B9132898FADD00695B5C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				50847C532898B85D0031C2D6 /* DetailCard.swift */,
+				5098B90F2898DB7F00695B5C /* ImageSlider.swift */,
+				50847C562898B85D0031C2D6 /* MapView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		5098B9142898FAFF00695B5C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				50847C5C2898B85D0031C2D6 /* GymList.swift */,
+				50847C542898B85D0031C2D6 /* GymRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50847C3A289846610031C2D6 /* GymDiscovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50847C49289846630031C2D6 /* Build configuration list for PBXNativeTarget "GymDiscovery" */;
+			buildPhases = (
+				50847C37289846610031C2D6 /* Sources */,
+				50847C38289846610031C2D6 /* Frameworks */,
+				50847C39289846610031C2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymDiscovery;
+			productName = GymDiscovery;
+			productReference = 50847C3B289846610031C2D6 /* GymDiscovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50847C33289846610031C2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					50847C3A289846610031C2D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 50847C36289846610031C2D6 /* Build configuration list for PBXProject "GymDiscovery" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50847C32289846610031C2D6;
+			productRefGroup = 50847C3C289846610031C2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50847C3A289846610031C2D6 /* GymDiscovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50847C39289846610031C2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50847C46289846630031C2D6 /* Preview Assets.xcassets in Resources */,
+				50847C602898B85D0031C2D6 /* list.json in Resources */,
+				50847C43289846630031C2D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50847C37289846610031C2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50847C692898B85D0031C2D6 /* GreetingView.swift in Sources */,
+				50847C5F2898B85D0031C2D6 /* ModelData.swift in Sources */,
+				50847C6D2898BAAF0031C2D6 /* FloatingBurbles.swift in Sources */,
+				50847C6F2898BAF00031C2D6 /* Theme.swift in Sources */,
+				50847C6A2898B85D0031C2D6 /* GymList.swift in Sources */,
+				50847C622898B85D0031C2D6 /* DetailCard.swift in Sources */,
+				5098B9122898EF6400695B5C /* ScreenMode.swift in Sources */,
+				50847C612898B85D0031C2D6 /* Gym.swift in Sources */,
+				50847C632898B85D0031C2D6 /* GymRow.swift in Sources */,
+				50847C6B2898B85D0031C2D6 /* ContentView.swift in Sources */,
+				50847C652898B85D0031C2D6 /* MapView.swift in Sources */,
+				50847C3F289846610031C2D6 /* GymDiscoveryApp.swift in Sources */,
+				5098B9102898DB7F00695B5C /* ImageSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50847C47289846630031C2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50847C48289846630031C2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50847C4A289846630031C2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymDiscovery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.GymDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50847C4B289846630031C2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymDiscovery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.GymDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50847C36289846610031C2D6 /* Build configuration list for PBXProject "GymDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50847C47289846630031C2D6 /* Debug */,
+				50847C48289846630031C2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50847C49289846630031C2D6 /* Build configuration list for PBXNativeTarget "GymDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50847C4A289846630031C2D6 /* Debug */,
+				50847C4B289846630031C2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50847C33289846610031C2D6 /* Project object */;
+}

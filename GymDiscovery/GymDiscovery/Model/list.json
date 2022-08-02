@@ -1,0 +1,284 @@
+[{
+        "id": 1,
+        "name": "Body Shape",
+        "caption": "Gym Thao Dien",
+        "phone": "02837446557",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 21:00",
+            "Sat: 07:30 – 18:00",
+            "Sun: 08:30 – 14:00"
+        ],
+        "coordinates": {
+            "latitude": 10.804949,
+            "longitude": 106.731447
+        },
+        "homepage": "https://bodyshape.vn",
+        "imageName": "bodyshape-gym",
+        "images": [
+            "bodyshape-1",
+            "bodyshape-2",
+            "bodyshape-3",
+            "bodyshape-4"
+        ],
+        "address": "No 49G Quoc Huong Street, Thao Dien Ward, District 2, Ho Chi Minh City",
+        "description": "Located in the Thao Dien Area in District 2, Body Shape is a gym definitely worth checking out. Your experience in this gym will be unrivaled by any gyms you might have already experienced before in Ho Chi Minh City.\n\nThis is a larger gym that offers a great selection of free weights and machines, making it feel less crowded and saves you time waiting for your turn. They also have TRX Bands and kettlebells for those looking to switch up their training.\n\nThey have a great cardio area which is made up of; treadmills, tread climbers, rowing machines, ellipticals, stair climbers, and spinning bikes.\n\nThe Body Shape staff highly recommends you to evaluate your fitness level with some different classes from yoga/pilates, kickboxing, taekwondo, and spinning classes to name a few.\n\nNeed a personal trainer? They have that too, someone to heighten just about everyone’s fitness goals."
+    },
+    {
+        "id": 2,
+        "name": "Star Fitness",
+        "caption": "A Gym With Top-notch Equipment",
+        "phone": "02835140254",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 22:00",
+            "Sat: 07:00 – 21:00",
+            "Sun: 07:00 – 21:00"
+        ],
+        "coordinates": {
+            "latitude": 10.793828,
+            "longitude": 106.718031
+        },
+        "homepage": "http://starfitnesshcm.com",
+        "imageName": "star-gym",
+        "images": [
+            "stargym-1",
+            "stargym-2",
+            "stargym-3"
+        ],
+        "address": "No 91 Nguyen Huu Canh Street, Ward 22, Binh Thanh District, Ho Chi Minh City",
+        "description": "We know that exercising or going to a gym every day can be such a challenge.\n\nBut once you have signed up for a gym membership at Star Fitness, well-trained coaches with many years of experience in the fitness industry here will motivate you to start and keep on the healthy living lifestyle.\n\nIt is not easy to find a drawback of this first-class health and sports club. The gym is equipped with a collection of top-notch equipment by well-known brands like Ivanco, Hammer, LifeFitness, and Cybex.\n\nThose who get bored with their treadmill routine can take part in the group fitness classes that run the gamut from Les Mill and Yoga to Group X and Martial Arts.\n\nIf you are looking for something super relaxing, you have to try out the outdoor swimming pool and detox with a sauna & steam bath.\n\nMore interestingly, the Star Fitness membership price covers all of the above services, as well as, use of towels, yoga mats, and clean drinking water. However, these rates may vary."
+    },
+    {
+        "id": 3,
+        "name": "UFC Gym Vietnam",
+        "caption": "The Footprint of The UFC International Brand in Vietnam",
+        "phone": "02873021999",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 23:00",
+            "Sat-Sun: 08:00 – 22:00"
+        ],
+        "coordinates": {
+            "latitude": 10.801326,
+            "longitude": 106.732765
+        },
+        "homepage": "https://www.ufcgym.com",
+        "imageName": "ufc-gym",
+        "images": [
+            "ufc-1",
+            "ufc-2",
+            "ufc-3",
+            "ufc-4"
+        ],
+        "address": "No 12 Quoc Huong Street, Thao Dien Ward, District 2, Ho Chi Minh City",
+        "description": "The UFC Gym offers a ton of fun classes that will absolutely help meet your fitness goals. Their signature classes are popular MMA-themed group fitness classes, mixed martial arts, wrestling, TRX, Judo, boxing, Muay Thai, kickboxing, and self-defense available for both men and women.\n\nWant to see the best part? Eagle-eyed coaches here will give you super personalized attention and keep an eye on standard forms.\n\nHowever, if you want your own instructor to provide modifications to every single step, head to the personal training area to find one right for you.\n\nAdditionally, there are personal training, mixed martial arts, and fitness classes all day long. So, there is no need to keep an eye out for their special events or change your timetable to go to this gym."
+    },
+    {
+        "id": 4,
+        "name": "Maxfit",
+        "caption": "A Place To Get Your Heart Pumping",
+        "phone": "0917921792",
+        "openingHours": [
+            "Mon-Sun: 07:00 – 22:00"
+        ],
+        "coordinates": {
+            "latitude": 10.780345,
+            "longitude": 106.683921
+        },
+        "homepage": "https://maxfit.vn",
+        "imageName": "maxfit-gym",
+        "images": [
+            "maxfit-1",
+            "maxfit-2",
+            "maxfit-3"
+        ],
+        "address": "No 70 Ba Huyen Thanh Quan Street, Ward 7, District 3, Ho Chi Minh City",
+        "description": "A popular training location with an impressive lineup, Maxfit in District 3 is a must-visit gym in Ho Chi Minh City.\n\nThe fully-equipped facility for niche workouts such as battle ropes and kettlebells comes as no surprise. But Maxfit has much more to offer than that.\n\nIf you want to improve your flexibility and stamina, as well as, decrease the level of stress, the signature yoga classes are here to help.\n\nIf you are looking for something upbeat, Zumba, Bum, and Pum, and Jam Fit classes pick you up, practicing the dance routines step by step to the point of feeling the music running in your blood.\n\nThere is also a whole selection of Fight Fit and Core Fit classes, which all encourage even the exercise phones to get their blood moving and keep their heart pumping.\n\nSometimes, you might mistake this brightly green and orange studio for a yoga studio. However, don’t be fooled by this gym’s open concept! The experienced and eagle-eyed coaches at Maxfit will not go easy on you."
+    },
+    {
+        "id": 5,
+        "name": "Saigon River Club",
+        "caption": "The Best Luxury Gym In Ho Chi Minh City",
+        "phone": "02835149009",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 22:00",
+            "Sat & Sun: 07:00 – 22:00"
+        ],
+        "coordinates": {
+            "latitude": 10.790131,
+            "longitude": 106.717945
+        },
+        "homepage": "http://www.saigonriverclub.com",
+        "imageName": "src-gym",
+        "images": [
+            "src-1",
+            "src-2",
+            "src-3"
+        ],
+        "address": "No 92 Nguyen Huu Canh Street, Binh Thanh District, Ho Chi Minh City",
+        "description": "Described as the best state-of-the-art sports club in Ho Chi Minh City, the Saigon River Club is the gym for those who prefer to exercise in luxury.\n\nThe first thing to draw your attention to is the fully equipped facility. Here, you can find Lifefitness Treadmills, Crosstrainers, and Upright Bikes, as well as,  Hammer Strength equipment – all of which are combined into the style of a fitness club.\n\nWhat makes the Saigon River Club stand out among hundreds of gyms in Ho Chi Minh City? It is a great investment as it has Zumba classes designed for kids from 5 to 12 years old, a spa, a giant outdoor pool, and a juice bar.\n\nBoth parents and kids can take advantage of these exciting dance courses and facilities. That way the whole family can get fit, stay active, and be happy together."
+    },
+    {
+        "id": 6,
+        "name": "HD Gym Phu Nhuan",
+        "caption": "An Excellent Budget-Friendly Gym",
+        "phone": "0862758358",
+        "openingHours": [
+            "Mon-Sat: 05:30 – 21:00",
+            "Sun: 13:00 –  19:00"
+        ],
+        "coordinates": {
+            "latitude": 10.795874,
+            "longitude": 106.670558
+        },
+        "homepage": "https://hdgym18.wixsite.com/hoangdieu",
+        "imageName": "hd-gym",
+        "images": [
+            "hd-1",
+            "hd-2",
+            "hd-3"
+        ],
+        "address": "No 18A Hoang Dieu, Ward 10, Phu Nhuan District, Ho Chi Minh City",
+        "description": "What it lacks in the strategic location, makes up for its accommodating attitude and pretty reasonable prices.\n\nWith two big separate rooms and plenty of high-quality equipment, the HD Gym’s layout is well designed to be pleasing both for those wanting to exercise and gym-goers who want to build their muscles.\n\nIf you want to see what the HD Gym has to offer, why not sign up for a 1-month gym membership for 450,000 – 500,000 VND or a 15-visit card for 400,000 VND?\n\nIt is much cheaper than other health clubs on our list. More amazingly, the price has been the same since December 2013. As a plus, they also offer a discount program for 3-month, 6-month, and 1-year cards."
+    },
+    {
+        "id": 7,
+        "name": "MMA Gym Fitness Center",
+        "caption": "A Gym For Asian Cultural Treasure Lovers",
+        "phone": "0922233379",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 21:00",
+            "Sat: 07:30 – 18:00",
+            "Sun: 08:30 – 14:00"
+        ],
+        "coordinates": {
+            "latitude": 10.772190,
+            "longitude": 106.686287
+        },
+        "homepage": "https://www.facebook.com/mmagymmuay/",
+        "imageName": "mma-gym",
+        "images": [
+            "mma-1",
+            "mma-2",
+            "mma-3",
+            "mma-4"
+        ],
+        "address": "No 285 Vo Van Tan Street, Ward 5, District 3, Ho Chi Minh City",
+        "description": "Have you been a fan of martial arts but haven’t actually gotten a chance to stand in the octagon?\n\nCheck out the MMA Gym Fitness Center – a national chain with five locations in Ho Chi Minh City, specializing in one of the greatest cultural treasures of Asia.\n\nThis gym offers pretty much everything you need to learn new skills or improve on existing ones– from training bags and training programs to attentive coaches for multiple disciplines – is centered around its purpose of unleashing your inner power.\n\nThe MMA Gym Fitness Center’s unique technique and open-concept studio encourage even the weakest practitioners to take on a much stronger and more professional opponent – making this effective Muay Thai and kickboxing system great for self-defense.\n\nIf you do not want to be in a fight, the low-impact courses are worth trying. Perfecting for people looking to build confidence all while getting a great workout in.\n\nScaled for gymers of all levels from beginners to advanced professionals, they mix weightlifting with the best body-weight exercises in options like squat, plank, full-body, cardio, and endurance.\n\nIt’s time to get your gloves on and train with Vietnam’s top fighters!"
+    },
+    {
+        "id": 8,
+        "name": "Fit24",
+        "caption": "A German-standard Gym Famous For Its Consistency",
+        "phone": "18002624",
+        "openingHours": [
+            "Mon-Sun: 06:00 – 22:00"
+        ],
+        "coordinates": {
+            "latitude": 10.788848,
+            "longitude": 106.683229
+        },
+        "homepage": "https://fit24.vn",
+        "imageName": "fit24-gym",
+        "images": [
+            "fit24-1",
+            "fit24-2",
+            "fit24-3"
+        ],
+        "address": "No 621 Hoang Sa Street, Ward 7, District 3, Ho Chi Minh City",
+        "description": "With a total area of up to 2500 square meters, Hoang Sa’s location is super-spacious, which is a huge plus when comparing it with other crowded gyms in the city.\n\nAside from the enormous space, there must be at least another good reason why the Fit24 Hoang Sa has long been a favorite of workout choices. This gym has been around since May 2012 and offers up to 70 Cardio Machines.\n\nMoreover, gym-goers who come here will have the choice of taking part in various kinds of group fitness classes, working out solo or with a friend, experiencing one-on-one training with their personal highly-qualified trainer, or relaxing in a refreshing sauna.\n\nCan’t make up your mind which kind of workout to perform? The Fit24 Hoang Sa has you covered, with a grab bag of circuit-training classes to make all fitness fiends feel the burn."
+    },
+    {
+        "id": 9,
+        "name": "Curves",
+        "caption": "Women’s Fitness Studio",
+        "phone": "0932626223",
+        "openingHours": [
+            "Mon-Fri: 10:30 – 19:30",
+            "Sat-Sun: 09:00 to 12:00"
+        ],
+        "coordinates": {
+            "latitude": 10.771417,
+            "longitude": 106.704106
+        },
+        "homepage": "https://curvesvietnam.com.vn",
+        "imageName": "curves-gym",
+        "images": [
+            "curves-1",
+            "curves-2",
+            "curves-3"
+        ],
+        "address": "No 43 – 45 Ho Tung Mau Street, Ben Nghe Ward, District 1, Ho Chi Minh City",
+        "description": "Ho Tung Mau branch of this national gym chain for women meets the standard of a women’s fitness studio for its cleanliness, friendly and supportive environment, as well as its comfort.\n\nTrainers consider this brand the mac daddy for women’s fitness and body sculpting.\n\nThe Curves’ classes, whose duration varies in every session, all combine weight training and strength intervals with everything from stretching to barre and med balls.\n\nEnjoy working out in a fun and colorful environment being trained with some innovative techniques by trainers who really care about your fitness goals."
+    },
+    {
+        "id": 10,
+        "name": "Saigon Sports Club",
+        "caption": "Best Saigon Gym",
+        "phone": "02837730514",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 22:00",
+            "Sat-Sun: 06:00 –  21:00"
+        ],
+        "coordinates": {
+            "latitude": 10.739521,
+            "longitude": 106.728969
+        },
+        "homepage": "https://www.saigonsportsclub.com",
+        "imageName": "ssc-gym",
+        "images": [
+            "ssc-1",
+            "ssc-2",
+            "ssc-3"
+        ],
+        "address": "No 514B Huynh Tan Phat, Binh Thuan Ward, District 7, Ho Chi Minh City",
+        "description": "With an emphasis on quality over quantity of workouts performed, the Saigon Sports Club’s affordable yet competitive training programs promise to deliver both beginners and professionals the best results.\n\nThe Saigon Sports Club’s signature classes include Martial Arts, Strength & Conditioning, Fighter Program, and Kid Program—with dedicated instructors paying attention to your every single move.\n\nAt the core of this gym is their martial arts training programs. For those who want to become an elite fighter or just develop some basic knowledge, look no further than the Saigon Sports Club.\n\nThis gym is almost spotless. The environment is accommodating. The staffs are helpful and friendly. The coaches are highly skilled and passionate.\n\nNot to mention, the complimentary cutting-edge facilities add an elegant touch to help you determine your fitness goals. The facility offers; a boxing ring, MMA cage, an assortment of punching bags, a full-sized basketball court, a swimming pool, a fully-equipped weight room, a yoga and spin studio, a juice bar, a steam room, and sauna, and an open grill restaurant to refuel after a nice workout. "
+    },
+    {
+        "id": 11,
+        "name": "California Fitness and Yoga",
+        "caption": "The Best Luxury Gym",
+        "phone": "18006995",
+        "openingHours": [
+            "Mon-Sun: From 06:00 – 23:00"
+        ],
+        "coordinates": {
+            "latitude": 10.801361,
+            "longitude": 106.652952
+        },
+        "homepage": "https://cali.vn",
+        "imageName": "cali-gym",
+        "images": [
+            "cali-1",
+            "cali-2",
+            "cali-3",
+            "cali-4",
+            "cali-5"
+        ],
+        "address": "Pico Plaza, 20 Cong Hoa, Ward 12, Tan Binh District, HCMC",
+        "description": "California Fitness & Yoga was established in 2007 in Vietnam. Today, it is the country’s leading premium gym network, providing world-class facilities, group classes and personal training as well as the best fitness advice and education.\n\nWith a mission of “Making Life Better”, California Fitness is committed to inspire, entertain and energize the communities it serves. Through it’s range of training programs, membership options, innovative technology adoption and over +2,000 classes per week, California Fitness & Yoga presents an unparalleled fitness & health experience to everyone in Vietnam."
+    },
+    {
+        "id": 12,
+        "name": "City Gym",
+        "caption": "The Most Popular Gym In HCM",
+        "phone": "02871002288",
+        "openingHours": [
+            "Mon-Fri: 06:00 – 21:00",
+            "Sat: 08:00 – 18:00",
+            "Sun: 08:00 – 15:00"
+        ],
+        "coordinates": {
+            "latitude": 10.770109,
+            "longitude": 106.666096
+        },
+        "homepage": "https://citigym.com.vn",
+        "imageName": "citygym-gym",
+        "images": [
+            "cg-1",
+            "cg-2",
+            "cg-3",
+            "cg-4"
+        ],
+        "address": "No 52 Thanh Thai Street, Ward 12, District 10, Ho Chi Minh City",
+        "description": "Established in 2018, CITIGYM owns a system of comfortable gyms with many branches and operates large-scale sports complexes such as Aqua Sport Complex, NovaWorld Sport Complex. Up to now, CITIGYM has served more than 100,000 customers.\n\nWith investment in facilities - state-of-the-art equipment, a team of professional and experienced personnel in the field of sports & healthcare, CITIGYM offers an enjoyable exercise experience that meets the desire for fitness. body and health for Vietnamese people.\n\nVISION: To become the number 1 sports operator in Vietnam.\n\nMISSION: Raise the stature and health of millions of Vietnamese, spread a positive lifestyle to the community."
+    }
+]
