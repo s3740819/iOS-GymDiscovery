@@ -1,3 +1,16 @@
+/*
+    RMIT University Vietnam
+    Course: COSC2659 iOS Development
+    Semester: 2022B
+    Assessment: Assignment 1
+    Author: Tran Kim Bao
+    ID: s3740819
+    Created Date: 01/08/2022
+    Last Modified: 05/08/2022
+    Acknowledgement:
+        - Google Map: For Coordinate Checking
+        - https://saigonkisstours.com/recommended-gyms-in-ho-chi-minh/
+ */
 
 import SwiftUI
 
@@ -44,22 +57,22 @@ struct FloatingBurbles: View {
             ZStack {
                 ColorThemes.darkgreen
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesTopRight(forScheme: scheme),
+                       color: ColorThemes.burblesTopRight(isDark: scheme == .dark),
                       start: 0,
                       duration: 60,
                       alignment: .bottomTrailing)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesTopRight(forScheme: scheme),
+                      color: ColorThemes.burblesTopRight(isDark: scheme == .dark),
                       start: 240,
                       duration: 50,
                       alignment: .topTrailing)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesBottomLeft(forScheme: scheme),
+                      color: ColorThemes.burblesBottomLeft(isDark: scheme == .dark),
                       start: 120,
                       duration: 80,
                       alignment: .bottomLeading)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesTopLeft(forScheme: scheme),
+                      color: ColorThemes.burblesTopLeft(isDark: scheme == .dark),
                       start: 180,
                       duration: 70,
                       alignment: .topLeading)
