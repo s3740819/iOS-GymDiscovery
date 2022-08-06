@@ -29,11 +29,15 @@
 </p>
 
 ## 🔮 Live Demo
+<p align="center">
+  <video src="https://user-images.githubusercontent.com/56997194/183243642-9ce20103-d8ae-4439-9f71-09171e11537e.mp4" width="300"></video>
+  <video src="https://user-images.githubusercontent.com/56997194/183243643-cf11c4cb-a7b2-4947-bfac-abc8289ed89e.mp4" width="300"></video>
+</p>
 
-<video src="https://user-images.githubusercontent.com/56997194/183243642-9ce20103-d8ae-4439-9f71-09171e11537e.mp4" width="300"></video> | <video src="https://user-images.githubusercontent.com/56997194/183243643-cf11c4cb-a7b2-4947-bfac-abc8289ed89e.mp4" width="300"></video>
-
-<video src="https://user-images.githubusercontent.com/56997194/183243698-2ee6b4d4-c5a5-4068-99f2-9d0926bd19fb.mp4" width="300"></video> | <video src="https://user-images.githubusercontent.com/56997194/183243705-78ba0c20-4d9d-4447-a278-21130714e54b.mp4" width="300"></video>
-
+<p align="center">
+  <video src="https://user-images.githubusercontent.com/56997194/183243698-2ee6b4d4-c5a5-4068-99f2-9d0926bd19fb.mp4" width="300"></video>
+  <video src="https://user-images.githubusercontent.com/56997194/183243705-78ba0c20-4d9d-4447-a278-21130714e54b.mp4" width="300"></video>
+</p>
 
 ## 🔧 Build Information
 - Xcode 13.4.1
