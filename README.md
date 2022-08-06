@@ -8,18 +8,39 @@
 - Moreover, it also includes a dark mode for people with eye problems
 - Finally, there is a speaker who will read the description to those who have reading problems
 
+## 🔮 Image Demo
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png" width="200" >
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png" width="200" >
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png">
+</p>
+
+<p align="center">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png">
+</p>
+
+<p align="center">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png">
+</p>
+
+<p align="center">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png">
 </p>
 
 ## 🔮 Live Demo
-<video src='./GymDiscovery/GymDiscovery/Preview Content/Demo.mp4' width=200></video>
+
+https://user-images.githubusercontent.com/56997194/183243642-9ce20103-d8ae-4439-9f71-09171e11537e.mp4
+
+
+https://user-images.githubusercontent.com/56997194/183243643-cf11c4cb-a7b2-4947-bfac-abc8289ed89e.mp4
+
+
+https://user-images.githubusercontent.com/56997194/183243698-2ee6b4d4-c5a5-4068-99f2-9d0926bd19fb.mp4
+
+
+https://user-images.githubusercontent.com/56997194/183243705-78ba0c20-4d9d-4447-a278-21130714e54b.mp4
+
 
 ## 🔧 Build Information
 - Xcode 13.4.1
