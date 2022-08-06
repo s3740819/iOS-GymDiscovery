@@ -14,6 +14,9 @@
 
 import SwiftUI
 
+/**
+    Controller View Rendering
+ */
 struct ContentView: View {
     @State var isInit: Bool = true
     var body: some View {

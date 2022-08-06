@@ -15,9 +15,15 @@
 
 import SwiftUI
 
+/**
+    Color Generator (constant)
+ */
 struct ColorThemes {
+    // Global color usage
     static let redlight = Color(red: 0.96, green: 0.53, blue: 0.53)
     static var darkgreen = Color(red: 0.043, green: 0.467, blue: 0.494)
+    
+    /// ------------------------- Burble Rendering Purpose ------------------------------
 
     static func burblesTopLeft(isDark: Bool) -> Color {
         let others = Color(red: 0.039, green: 0.388, blue: 0.502, opacity: 0.81)

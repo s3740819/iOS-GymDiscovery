@@ -14,13 +14,23 @@
 
 import SwiftUI
 
+/**
+    Gym List Rendering
+ */
 struct GymList: View {
+    // Flag for moving back to Welcome Screen
     @Binding var isInit : Bool
+
+    // Search purpose
     @State var searchString = ""
+    
+    // to sync screen-mode for all detail views
     @State var darkMode = false
+
     var body: some View {
         NavigationView {
-            List(searchResults){
+            List(searchResult){
+                // Row Initialization
                 gymItem in
                 NavigationLink{
                     DetailCard(gym: gymItem, darkMode: $darkMode)
@@ -31,6 +41,7 @@ struct GymList: View {
                 .navigationTitle("Gym List 🏋")
             }
             .toolbar {
+                // For Moving Back To Welcome Screen
                 ToolbarItem (placement: .navigationBarLeading) {
                     Button("Back", action: {
                         isInit = true
@@ -41,15 +52,20 @@ struct GymList: View {
         }
     }
     
-    var searchResults: [Gym] {
+    // Search Result
+    var searchResult: [Gym] {
         if searchString.isEmpty {
             return gymList
         }
-        return gymList.filter { $0.name.lowercased().contains(searchString.lowercased()) }
+
+        return gymList.filter {
+            $0.name.lowercased()
+                .contains(searchString.lowercased())
+        }
     }
 }
 
-struct ContactList_Previews: PreviewProvider {
+struct GymList_Previews: PreviewProvider {
     static var previews: some View {
         GymList(isInit: .constant(false))
     }

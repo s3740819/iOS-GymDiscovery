@@ -14,19 +14,29 @@
 
 import SwiftUI
 
+/**
+    Welcome Screen Rendering
+ */
 struct GreetingView: View {
     @Binding var active: Bool
     @State var animateValue = 1.0
+
     var body: some View {
         ZStack{
+            // Background Rendering
             FloatingBurbles()
+            
+            // Content Rendering
             VStack(spacing: 20){
                 Spacer()
+
+                // Text Rendering with gradient colors
                 Text("Gym Discovery")
                     .font(.custom("AmericanTypewriter", size: 40))
                     .fontWeight(.heavy)
                     .bold()
-                    .overlay{
+                    .overlay {
+                        // Overlay text with the same text + gradient color
                         LinearGradient(colors: [Color.purple, ColorThemes.redlight], startPoint: .top, endPoint: .bottom)
                             .mask(
                             Text("Gym Discovery")
@@ -38,11 +48,13 @@ struct GreetingView: View {
                 
                 Spacer()
 
+                // Welcome Image (related to app topic)
                 Image("welcome")
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal, 10)
             
+                // 3d effect text
                 Text("No Pain, No Gain!")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
@@ -51,9 +63,12 @@ struct GreetingView: View {
 
                 Spacer()
                 
+                // Button for moving to list view
                 Button(action: {
+                    // For Content View to switch to another view
                     active = false
                 }, label: {
+                    // Text + its animation
                     Capsule()
                         .padding(.horizontal, 30)
                         .frame(height: 70)
@@ -64,7 +79,9 @@ struct GreetingView: View {
                                 .foregroundColor(.white)
                                 .scaleEffect(animateValue)
                         )
-                        .animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: animateValue)
+                        .animation(
+                            .easeInOut(duration: 1.5)
+                            .repeatForever(autoreverses: true), value: animateValue)
                         .shadow(radius: 0)
                 })
                 .shadow(color: .white, radius: 5)

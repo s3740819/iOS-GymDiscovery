@@ -15,25 +15,34 @@
 import SwiftUI
 import MapKit
 
+/**
+    Map Pin Object
+ */
 struct Place: Identifiable {
     var id = UUID()
     var location: CLLocationCoordinate2D
 }
 
+/**
+    Map Redering
+ */
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
 
     var body: some View {
-        Map(coordinateRegion: $region,
-            annotationItems: [Place(location: coordinate)]){
+        // Reder Map
+        Map(coordinateRegion: $region, annotationItems: [Place(location: coordinate)]) {
+            // Pin the specified location
             MapPin(coordinate: $0.location)
         }
         .onAppear {
+            // Focus on the specified location
             setRegion(coordinate)
         }
     }
     
+    // move and focus on the specified location
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,

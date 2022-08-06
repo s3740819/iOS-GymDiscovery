@@ -14,13 +14,15 @@
 
 import SwiftUI
 
-struct ColorField {
+// Color Mapper
+struct ColorMapper {
     var text: Color
     var background: Color
     var map: ColorScheme
 }
 
+// Screen Mode For Global Usage
 struct ScreenMode {
-    static var dark = ColorField(text: Color.white, background: Color.black, map: .dark)
-    static var light = ColorField(text: Color.black, background: Color.white, map: .light)
+    static var dark = ColorMapper(text: Color.white, background: Color.black, map: .dark)
+    static var light = ColorMapper(text: Color.black, background: Color.white, map: .light)
 }

@@ -14,7 +14,10 @@
 
 import SwiftUI
 
-class BurbleInstance: ObservableObject {
+/**
+    Burble Position  Generator (Randomly)
+ */
+class BurblePosition: ObservableObject {
     let offset: CGSize
     let frameHeightRatio: CGFloat
 
@@ -25,9 +28,14 @@ class BurbleInstance: ObservableObject {
     }
 }
 
+/**
+    Burble Instance Generator
+ */
 struct Burble: View {
-    @StateObject var burble = BurbleInstance()
+    @StateObject var burble = BurblePosition()
     @State var move = false
+    
+    // Required input vars
     let proxy: GeometryProxy
     let color: Color
     let start: Double
@@ -40,7 +48,10 @@ struct Burble: View {
             .frame(height: proxy.size.height /  burble.frameHeightRatio)
             .offset(burble.offset)
             .rotationEffect(.init(degrees: move ? start : start + 360) )
-            .animation(Animation.linear(duration: duration).repeatForever(autoreverses: false), value: move)
+            .animation(
+                Animation
+                    .linear(duration: duration)
+                    .repeatForever(autoreverses: false), value: move)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: alignment)
             .opacity(0.5)
             .onAppear {
@@ -49,30 +60,36 @@ struct Burble: View {
     }
 }
 
+/**
+    Welcome View - Background Rendering
+ */
 struct FloatingBurbles: View {
-    @Environment(\.colorScheme) var scheme
+    @Environment(\.colorScheme) var screenMode
 
     var body: some View {
         GeometryReader { proxy in
             ZStack {
+                // Set background
                 ColorThemes.darkgreen
+                
+                // Render 4 burbles with random position
                 Burble(proxy: proxy,
-                       color: ColorThemes.burblesTopRight(isDark: scheme == .dark),
+                       color: ColorThemes.burblesTopRight(isDark: screenMode == .dark),
                       start: 0,
                       duration: 60,
                       alignment: .bottomTrailing)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesTopRight(isDark: scheme == .dark),
+                      color: ColorThemes.burblesTopRight(isDark: screenMode == .dark),
                       start: 240,
                       duration: 50,
                       alignment: .topTrailing)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesBottomLeft(isDark: scheme == .dark),
+                      color: ColorThemes.burblesBottomLeft(isDark: screenMode == .dark),
                       start: 120,
                       duration: 80,
                       alignment: .bottomLeading)
                 Burble(proxy: proxy,
-                      color: ColorThemes.burblesTopLeft(isDark: scheme == .dark),
+                      color: ColorThemes.burblesTopLeft(isDark: screenMode == .dark),
                       start: 180,
                       duration: 70,
                       alignment: .topLeading)

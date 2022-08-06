@@ -15,7 +15,11 @@
 import SwiftUI
 import CoreLocation
 
+/**
+    Gym Object Generator
+ */
 struct Gym: Identifiable, Codable{
+    // Required Vars
     var id: Int
     var name: String
     var phone: String
@@ -28,10 +32,12 @@ struct Gym: Identifiable, Codable{
     private var imageName: String
     private var coordinates: Coordinates
     
+    // Init Image Object Based On Input Image-name
     var image: Image {
         Image(imageName)
     }
         
+    // Init Location Object Based On Input Coordinates
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
@@ -40,6 +46,7 @@ struct Gym: Identifiable, Codable{
     }
 }
 
+// Object for Coordinates
 struct Coordinates: Codable {
     var latitude: Double
     var longitude: Double

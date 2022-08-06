@@ -14,6 +14,9 @@
 
 import SwiftUI
 
+/**
+    Row Rendering
+ */
 struct GymRow: View {
     var gym: Gym
     
@@ -29,7 +32,7 @@ struct GymRow: View {
     }
 }
 
-struct ContactRow_Previews: PreviewProvider {
+struct GymRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             GymRow(gym: gymList[0])
