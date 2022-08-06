@@ -19,7 +19,7 @@
 </p>
 
 ## 🔮 Live Demo
-<video src='./GymDiscovery/GymDiscovery/Preview Content/Demo.mp4' width=200/>
+<video src='./GymDiscovery/GymDiscovery/Preview Content/Demo.mp4' width=200></video>
 
 ## 🔧 Build Information
 - Xcode 13.4.1
