@@ -10,31 +10,35 @@
 
 ## 🔮 Image Demo
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png" width="500">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png" width="400">
 </p>
 
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png" width="500">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png" width="500">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png" width="400">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png" width="400">
 </p>
 
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png" width="500">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png" width="500">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png" width="400">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png" width="400">
 </p>
 
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png" width="500">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png" width="500">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png" width="400">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png" width="400">
 </p>
 
 ## 🔮 Live Demo
 
-https://user-images.githubusercontent.com/56997194/183243642-9ce20103-d8ae-4439-9f71-09171e11537e.mp4 
+https://user-images.githubusercontent.com/56997194/183243642-9ce20103-d8ae-4439-9f71-09171e11537e.mp4
+
+
 https://user-images.githubusercontent.com/56997194/183243643-cf11c4cb-a7b2-4947-bfac-abc8289ed89e.mp4
 
 
 https://user-images.githubusercontent.com/56997194/183243698-2ee6b4d4-c5a5-4068-99f2-9d0926bd19fb.mp4 
+
+
 https://user-images.githubusercontent.com/56997194/183243705-78ba0c20-4d9d-4447-a278-21130714e54b.mp4
 
 
