@@ -10,19 +10,19 @@
 
 ## 🔮 Image Demo
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png" width="300">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/WelcomeView.png" width="250">
 </p>
 
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png" width="300">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png" width="300">
-   <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png" width="300">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/ListView.png" width="250">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/SearchView.png" width="250">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView.png" width="250">
 </p>
 
 <p align="center">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png" width="300">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png" width="300">
-  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png" width="300">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView2.png" width="250">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView3.png" width="250">
+  <img src="./GymDiscovery/GymDiscovery/Preview Content/DetailView4.png" width="250">
 </p>
 
 ## 🔮 Live Demo
