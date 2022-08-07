@@ -30,13 +30,15 @@
   <tr>
      <td>Welcome View</td>
      <td>List View</td>
-     <td>Detail View</td>
-     <td>Detail View With DarkMode</td>
   </tr>
   <tr>
     <td><img src="./GymDiscovery/GymDiscovery/Preview Content/welcome.gif?raw=true" width="245"></td>
     <td><img src="./GymDiscovery/GymDiscovery/Preview Content/list.gif?raw=true" width="245"></td>
    </tr>
+  <tr>
+     <td>Welcome View</td>
+     <td>List View</td>
+  </tr>
    <tr>
     <td><img src="./GymDiscovery/GymDiscovery/Preview Content/detail.gif?raw=true" width="245"></td>
     <td><img src="./GymDiscovery/GymDiscovery/Preview Content/darkmode.gif?raw=true" width="245"></td>
