@@ -29,7 +29,6 @@ struct DetailCard: View {
     @State var current = 0
     @State var isSpeaking = false
     @State var description = ""
-    @State var isLight = true
     @State var mode = ScreenMode.dark
     
     // Speaker for 'text to speech' purpose
@@ -169,20 +168,18 @@ struct DetailCard: View {
                 ToolbarItem {
                     Button (darkMode ? "◑" : "◐") {
                         darkMode.toggle()
-                        isLight.toggle()
                         mode = darkMode ? ScreenMode.dark : ScreenMode.light
                     }
                 }
             }
         }
-        .animation(.linear(duration: 0.3), value: isLight)
+        .animation(.linear(duration: 0.3), value: darkMode)
         .navigationBarTitleDisplayMode(.inline)
         
         // Constructor
         .onAppear {
             description = gym.description
             mode = darkMode ? ScreenMode.dark : ScreenMode.light
-            isLight = !darkMode
         }
         
         // Destructor
